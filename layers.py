@@ -12,8 +12,7 @@ from hexnet.tensor import Tensor
 
 
 class Layer:
-    
-    
+
     def __init__(self) -> None:
         pass
 
@@ -28,4 +27,3 @@ class Layer:
         Backpropagete this gradient through the layer
         """
         raise NotImplementedError
-
